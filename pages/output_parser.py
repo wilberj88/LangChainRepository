@@ -31,4 +31,4 @@ result = chat_model.predict_messages(messages)
 parsed = AnswerOutputParser().parse(result.content)
 steps, answer = parsed
 
-st.write(answer)
+st.write(steps, answer)
