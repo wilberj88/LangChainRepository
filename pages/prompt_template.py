@@ -20,7 +20,7 @@ chat_prompt = ChatPromptTemplate.from_messages([
 
 messages = chat_prompt.format_messages(input_Language="English",
                                        output_Language="French",
-                                       text="I love programming recommender systems"
+                                       text="I love programming recommender systems")
 
 result = chat_model.predict_messages(messages)
 
