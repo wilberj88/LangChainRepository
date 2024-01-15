@@ -1,9 +1,7 @@
 import streamlit as st
 from langchain.chat_models import ChatOpenAI
-from dotenv import load_dotenv
 import os
 
-load_dotenv()
 
 api_key1 = st.secrets["OPENAI_API_KEY"]
 
