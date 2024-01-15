@@ -10,7 +10,7 @@ api_key2 = os.getenv("OPENAI_API_KEY")
 
 chat_model = ChatOpenAI(openai_api_key=api_key1)
 
-template = "You area helpful assitant that translates {input_language} to {output_language}."
+template = "You area helpful assitant that translates {input_Language} to {output_Language}."
 human_template = "{text}"
 
 chat_prompt = ChatPromptTemplate.from_messages([
