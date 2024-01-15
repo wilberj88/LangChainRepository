@@ -26,7 +26,7 @@ chat_prompt = ChatPromptTemplate.from_messages([
   ("human", human_template),
 ])
 
-messages = chat_prompt.format_messages(problem="haz la serie de fibonacci para los primeros 6 números")
+messages = chat_prompt.format_messages(problem="2x^2 - 5x + 3 = 0")
 result = chat_model.predict_messages(messages)
 parsed = AnswerOutputParser().parse(result.content)
 steps, answer = parsed
