@@ -23,6 +23,6 @@ chat_prompt = ChatPromptTemplate.from_messages([
   ("human", human_template),
 ])
 
-chain = chat_prompt | chat model | CommaSeparatedListOutputParser()
+chain = chat_prompt | chat_model | CommaSeparatedListOutputParser()
 result = chain.invoke({"text": "colors"})
 st.write(result)
