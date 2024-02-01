@@ -1,4 +1,4 @@
 import streamlit as st
 
-st.title("LangChain Repository in Novus Tech")
+st.title("LangChain Repository")
 st.header("By Wilber Jiménez Hernández")
