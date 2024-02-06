@@ -7,9 +7,13 @@ from langchain_openai import OpenAIEmbeddings, ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate, MessagesPlaceholder
 from langchain.chains import create_history_aware_retriever, create_retrieval_chain
 from langchain.chains.combine_documents import create_stuff_documents_chain
+import pysqlite3
+import sys
+sys.modules['sqlite3'] = sys.modules.pop('pysqlite3')
 
 
 api_key1 = st.secrets["OPENAI_API_KEY"]
+
 
 def get_vectorstore_from_url(url):
     # get the text in document form
