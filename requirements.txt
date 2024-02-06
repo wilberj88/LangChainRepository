@@ -6,3 +6,4 @@ beautifulsoup4
 langchain_community
 langchain_core
 langchain_openai
+sqlite3
