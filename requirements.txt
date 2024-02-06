@@ -3,3 +3,6 @@ openai
 langchain
 chromadb
 beautifulsoup4
+langchain_community
+langchain_core
+langchain_openai
