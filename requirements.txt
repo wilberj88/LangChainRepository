@@ -1,7 +1,7 @@
 streamlit
 openai
 langchain
-chromadb
+chromadb==0.4.22
 beautifulsoup4
 langchain_community
 langchain_core
