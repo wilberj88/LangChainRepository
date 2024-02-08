@@ -11,3 +11,5 @@ pypdf
 faiss-gpu
 PyPDF2
 unstructured
+replicate
+os
