@@ -53,7 +53,7 @@ if pdf is not None:
     else:
         embeddings = OpenAIEmbeddings()
         VectorStore = FAISS.from_texts(chunks, embedding=embeddings)
-        with open(f"{store_name}.pkl", "wb") as f:
+        with open(f"{store_name}.pkl", "rb") as f:
             pickle.dump(VectorStore, f)
 
     # embeddings = OpenAIEmbeddings()
