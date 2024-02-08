@@ -10,3 +10,4 @@ pysqlite3-binary
 pypdf
 faiss-gpu
 PyPDF2
+unstructured
