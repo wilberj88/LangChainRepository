@@ -14,3 +14,6 @@ https://learn.deeplearning.ai/llmops/lesson/2/the-fundamentals
 
 Create a RAGchain:
 https://www.youtube.com/watch?v=LBNpyjcbv0o&list=PLs5Nvr3HeyjtPq7tSnCVKtKi7h0v2YO5C&index=134&t=1232s
+
+Intro LangGraph:
+https://github.com/christianrice/demos/tree/a0ae00d382b61ed58573b92e639887f93154074d/2024_01_26%20-%20Intro%20to%20LangGraph
