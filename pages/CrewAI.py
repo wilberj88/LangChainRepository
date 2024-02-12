@@ -1,5 +1,10 @@
 import streamlit as st
 from crewai import Agent, Task, Crew, Process
+from langchain.chat_models import ChatOpenAI
+
+api_key1 = st.secrets["OPENAI_API_KEY"]
+
+chat_model = ChatOpenAI(openai_api_key=api_key1)
 
 #CREATE THE AGENTS
 monitor_agent = Agent(
