@@ -48,8 +48,8 @@ task_recommender_prevention_city = Task(
 
 #CREATE THE CREW
 city_crew = Crew(
-  agents=[monitor_agent, alarm_reaction_agent, recommender_preventor_agent]
-  tasks=[task_monitor_city, task_alarm_reaction_city, task_recommender_prevention_city]
+  agents=[monitor_agent, alarm_reaction_agent, recommender_preventor_agent],
+  tasks=[task_monitor_city, task_alarm_reaction_city, task_recommender_prevention_city],
   process=Process.sequential,
   verbose=True
 )
