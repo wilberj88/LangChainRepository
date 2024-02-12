@@ -1,6 +1,8 @@
 import streamlit as st
 from crewai import Agent, Task, Crew, Process
 from langchain.chat_models import ChatOpenAI
+from langchain_community.tools import DuckDuckGoSearchRun
+search_tool = DuckDuckGoSearchRun()
 
 api_key1 = st.secrets["OPENAI_API_KEY"]
 
@@ -11,7 +13,9 @@ monitor_agent = Agent(
   role="Collect and augment climate city data in real time by differents sources",
   goal="Report the overall performance of all climate city data",
   backstory="Expert in extact and monitoring real time data from satellites, IoT, APIs and Machine Learning Models",
-  verbose=True
+  verbose=True,
+  allow_delegation=False,
+  tools=[search_tool]
 )
 
 alarm_reaction_agent = Agent(
