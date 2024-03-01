@@ -1,12 +1,11 @@
 import streamlit as st
 from langchain_core.messages import AIMessage, HumanMessage
 from langchain_openai import ChatOpenAI
-from dotenv import load_dotenv
 from langchain_core.output_parsers import StrOutputParser
 from langchain_core.prompts import ChatPromptTemplate
 
 
-load_dotenv()
+api_key1 = st.secrets["OPENAI_API_KEY"]
 
 # app config
 st.set_page_config(page_title="Streaming bot", page_icon="🤖")
