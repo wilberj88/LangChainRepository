@@ -4,6 +4,9 @@
 
 
 LLM:
+https://decodingml.substack.com/p/an-end-to-end-framework-for-production?r=1ttoeh&utm_campaign=post&utm_medium=web&triedRedirect=true
+
+
 https://open.spotify.com/episode/3Lhu9sLamaJ3UacsS2vnxT?si=UEvVmDMjRbu4sLSIxEPPxA
 https://www.youtube.com/watch?v=oMRJ--GJCKQ&t=209s
 
